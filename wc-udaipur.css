@@ -1633,7 +1633,7 @@ body h1.fl-callout-title,body h2.fl-callout-title,body h3.fl-callout-title,body 
 .fl-builder-content .fl-node-581c7512c08b7 a.fl-button,.fl-builder-content .fl-node-581c7512c08b7 a.fl-button:visited {
 	font-size: 18px;
 	line-height: 20px;
-	padding: 20px 40px;
+	padding: 20px 80px;
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
@@ -1647,6 +1647,11 @@ body h1.fl-callout-title,body h2.fl-callout-title,body h3.fl-callout-title,body 
 	border: 0 solid #d14803;
 	background-color: rgba(221,84,15,0);
 	border-color: #dd540f;
+}
+
+.fl-builder-content .fl-node-581c7512c08b7 a.fl-button:hover span,
+.fl-builder-content .fl-node-581c7512c08b7 a.fl-button:focus span {
+	color: #d0bdb3;
 }
 
 .fl-node-581c7512c08b7 > .fl-module-content {
@@ -1688,7 +1693,7 @@ body h1.fl-callout-title,body h2.fl-callout-title,body h3.fl-callout-title,body 
 .fl-builder-content .fl-node-581c5a7e603a0 a.fl-button,.fl-builder-content .fl-node-581c5a7e603a0 a.fl-button:visited {
 	font-size: 18px;
 	line-height: 20px;
-	padding: 20px 40px;
+	padding: 20px 80px;
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
@@ -1702,6 +1707,11 @@ body h1.fl-callout-title,body h2.fl-callout-title,body h3.fl-callout-title,body 
 	border: 0 solid #d14803;
 	background-color: rgba(221,84,15,0);
 	border-color: #dd540f;
+}
+
+.fl-builder-content .fl-node-581c5a7e603a0 a.fl-button:hover span,
+.fl-builder-content .fl-node-581c5a7e603a0 a.fl-button:focus span {
+	color: #d0bdb3;
 }
 
 .fl-node-581c5a7e603a0 > .fl-module-content {
