@@ -5775,3 +5775,812 @@ div.woocommerce h2,div.woocommerce h3 {
 		clear: both;
 	}
 }
+
+/* Custom CSS */
+body {
+	background: transparent;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+
+body:before {
+	top: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: proxima-nova !important;
+	letter-spacing: 1px !important;
+}
+
+button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
+	background-color: #F35600;
+	border: 0;
+	padding: 12px 20px;
+}
+
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background: #1a1a1a;
+	border: 0;
+	padding: 12px 20px;
+}
+
+.site {
+	margin: 0;
+}
+
+.site-inner {
+	max-width: 100%;
+}
+
+div#content {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.header-image a {
+	text-align: center;
+	background: url('http://2017.udaipur.wordcamp.org/files/2016/12/header1.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 20px;
+}
+
+.header-image img {
+	visibility: hidden;
+	opacity: 0;
+/*width: 100%;*/
+}
+
+.site-branding {
+	display: none;
+}
+
+.main-navigation {
+	font-family: 'proxima-nova', sans-serif;
+	text-transform: uppercase;
+}
+
+div#site-header-menu {
+	margin: 0 auto;
+}
+
+div#site-header-menu {
+	background-color: #f5f5f5;
+	padding: 0 !important;
+	width: 100%;
+	position: fixed;
+	z-index: 1000001;
+	top: 0;
+}
+
+.admin-bar div#site-header-menu {
+	top: 32px;
+}
+
+nav#site-navigation a {
+	color: #b16029;
+	padding: 17px 20px;
+}
+
+nav.main-navigation .current-menu-item > a, nav.main-navigation .current-menu-ancestor > a {
+	font-weight: 300;
+	color: #ff5600 !important;
+}
+
+nav#site-navigation {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0;
+}
+
+.main-navigation .primary-menu {
+/*text-align: center;*/
+}
+
+.main-navigation .primary-menu > li {
+	float: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.main-navigation .menu-item-has-children > a:after {
+	display: none;
+}
+
+.main-navigation .primary-menu > li > a:after {
+	content: "\f111";
+	font-family: FontAwesome;
+	font-size: 4px;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 25px;
+	color: #ff5600;
+	display: block;
+}
+
+.main-navigation .primary-menu > li:last-child > a:after,
+.main-navigation .primary-menu > li:nth-last-child(2) > a:after {
+	display: none;
+}
+
+.main-navigation .primary-menu > li.header-button {
+	float: right;
+}
+
+.main-navigation .primary-menu > li.header-button > a {
+	background: url('http://2017.udaipur.wordcamp.org/files/2016/11/tickt.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff !important;
+	font-size: 13px;
+	padding-left: 18px !important;
+	padding-right: 34px !important;
+}
+
+ul .menu-item {
+	background-color: transparent !important;
+	color: #fff;
+}
+
+nav#site-navigation .sub-menu a {
+	padding: 10px;
+}
+
+.sub-menu li {
+	background-color: #ffffff !important;
+}
+
+.sub-menu li:hover {
+	background-color: #f7f7f7 !important;
+}
+
+.sub-menu li:hover a {
+	color: #000 !important;
+}
+
+nav.main-navigation ul ul:before {
+	right: 25px;
+}
+
+nav.main-navigation ul ul:after {
+	right: 27px;
+	top: -8px;
+}
+
+.menu-toggle {
+	background-color: #F35600;
+	border: 0;
+	color: #fff;
+	font-size: 13px;
+	font-size: .8125rem;
+	margin: 1.076923077em 0;
+	padding: .769230769em;
+	padding: 15px !important;
+	width: 100%;
+	margin: 0;
+}
+
+header#masthead {
+	padding: 0;
+}
+
+.entry-title a:hover, .entry-title a:focus {
+	color: #F35600;
+}
+
+.header-image {
+	margin-top: 60px;
+}
+
+.blog .site-main > article,
+.archive .site-main > article,
+.search .site-main > article {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 60px;
+	margin-bottom: 80px;
+}
+
+.widget .widget-title {
+	font-size: 22px;
+	font-family: Oxygen, sans-serif;
+}
+
+.entry-title {
+	font-family: Oxygen, sans-serif;
+}
+
+.sidebar .button {
+	background: #f35600;
+	padding: 14px 22px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.sidebar .button:hover {
+	background: #1a1a1a;
+}
+
+.sidebar .widget {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.sidebar-sponsors {
+	text-align: center;
+}
+
+.sidebar-sponsors h4 {
+	text-align: left;
+}
+
+.sidebar-sponsors .sidebar-sponsor {
+	margin-bottom: 30px;
+}
+
+.sidebar-sponsors .sponsor-img {
+	float: left;
+	width: 47%;
+	min-height: 70px;
+	padding: 20px 10px;
+	box-shadow: 0 1px 4px #d8d5d5;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.sidebar-sponsors .sponsor-img:nth-of-type(2n+1) {
+	clear: left;
+	margin-left: 0;
+}
+
+.sidebar-sponsors br {
+	display: none;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer,
+body:not(.search-results) article:not(.type-page) .entry-content {
+	width: 100%;
+	float: none;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer {
+	margin-top: 20px;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span.byline {
+	display: none;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span.edit-link {
+	display: inline-block;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span a:hover {
+	color: #f35600;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label, 
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input[type="submit"] {
+	margin-top: 10px;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input[type="submit"] {
+	padding: 12px 20px;
+}
+
+.wc-sponsors-container {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.wc-sponsors-container h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.sponsors-wrapper .wc-sponsor {
+	width: 22%;
+	display: inline-block;
+	margin-right: 20px;
+	padding: 30px 20px;
+	vertical-align: middle;
+}
+
+.sponsors-wrapper .wc-sponsor:last-child {
+	margin-right: 0;
+}
+
+.sponsors-wrapper .wc-sponsor-inner {
+	display: table;
+	width: 100%;
+	height: 100%;
+	min-height: 82px;
+}
+
+.sponsors-wrapper .wc-sponsor-inner .wc-sponsor-inner-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sponsors-wrapper .wc-sponsor img {
+	margin: 0 auto;
+}
+
+.page-slug-sponsors .sponsors-wrapper {
+	background-image: url('http://2017.udaipur.wordcamp.org/files/2016/11/spnsr.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 40px;
+}
+
+.page-slug-sponsors .sponsors-wrapper:last-child {
+	margin-bottom: 90px;
+}
+
+.page-slug-sponsors .content-area {
+	width: 100%;
+	float: none;
+}
+
+.page-slug-sponsors .sidebar {
+	display: none;
+}
+
+.page-slug-sponsors .entry-header {
+	display: none;
+}
+
+.wcorg-organizers .wcorg-organizer {
+	margin-bottom: 40px;
+	background-image: ;
+}
+
+.wcorg-organizers .wcorg-organizer:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.wcorg-organizers .wcorg-organizer h2 {
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+
+.wcorg-organizers .wcorg-organizer img {
+	float: left;
+	margin-right: 30px;
+}
+
+.page-slug-speakers .wcorg-speakers .wcorg-speaker {
+	width: 30.3%;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 5px #e6e2e2;
+	padding: 20px;
+	text-align: center;
+}
+
+.page-slug-speakers .wcorg-speakers .wcorg-speaker:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.page-slug-speakers .wcorg-speakers .wcorg-speaker h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#tix-attendees a.tix-field {
+	color: #222;
+	box-shadow: none;
+	margin-top: 0;
+}
+
+#tix-attendees a.tix-field:hover {
+	color: #F35600;
+	text-decoration: underline;
+}
+
+#tix-attendees .avatar {
+	width: 80px;
+	height: 80px;
+}
+
+#tix-attendees .tix-field {
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+#tix-attendees li {
+	margin-bottom: 30px;
+}
+
+.content-area {
+	position: relative;
+}
+
+.content-area:after {
+	content: "";
+	display: block;
+	position: absolute;
+	background-image: url('http://2017.udaipur.wordcamp.org/files/2016/10/mustache.png');
+	width: 70px;
+	height: 70px;
+	z-index: 9999;
+	bottom: 0;
+	background-size: 50px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.fl-node-581c66301874d > .fl-row-content-wrap {
+	background-image: url('http://2017.udaipur.wordcamp.org/files/2016/12/footer1.jpg');
+}
+
+.below-footer-text {
+	background: #25170c;
+	text-align: center;
+	color: #afafaf;
+	font-weight: 100;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.below-footer-text a {
+	color: #afafaf;
+}
+
+.below-footer-text a:hover {
+	color: #F35600;
+	text-decoration: underline;
+}
+
+.site-footer {
+	background: #25170c;
+	padding: 5px 30% 20px;
+}
+
+.site-footer a {
+	color: #afafaf;
+}
+
+.site-footer a:hover {
+	color: #F35600;
+}
+
+.site-info {
+	margin: 0 auto;
+	color: #ddd;
+}
+
+.page-slug-home .content-area#primary .entry-header,
+.page-slug-home .content-area#primary p:empty {
+	display: none !important;
+}
+
+.page-slug-home .content-area#primary {
+	width: 100%;
+}
+
+.page-slug-home .sidebar#secondary {
+	display: none !important;
+}
+
+.page-slug-home div#content {
+	max-width: 100%;
+	padding: 0;
+}
+
+.page-slug-home .content-area:after,
+.page-slug-home .entry-footer {
+	display: none;
+}
+
+.page-slug-home .site-main,
+.page-slug-home .fl-post {
+	margin-bottom: 0;
+}
+
+.page-slug-home .content-area#primary a {
+	box-shadow: none;
+}
+
+.page-slug-home .fl-builder-content .fl-node-581c6687e13ac a.fl-button {
+	background: url('http://2017.udaipur.wordcamp.org/files/2016/11/home-button-bg.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 0;
+}
+
+.fl-node-581c4dbb4feed .fl-col {
+	padding: 0 10px;
+}
+
+.fl-node-581c4c063ff3f > .fl-row-content-wrap {
+	padding-top: 0 !important;
+}
+
+.page-slug-registration .content-area {
+	width: 100%;
+	float: none;
+}
+
+.page-slug-registration .sidebar {
+	display: none;
+}
+
+.page-slug-registration select[name="tix_payment_method"] {
+	display: none;
+}
+
+.page-slug-registration .tix-submit {
+	text-align: center;
+}
+
+.page-slug-registration .tix-attendee-form tr:nth-of-type(even) {
+	background: #f9f9f9;
+}
+
+.page-slug-registration table, 
+.page-slug-registration th, 
+.page-slug-registration td {
+	border-color: #e2e2e2;
+}
+
+.page-slug-registration .tix-attendee-form input[type="text"],
+.page-slug-registration .tix-attendee-form input[type="email"],
+.page-slug-registration .tix-attendee-form input[type="url"] {
+	width: 100%;
+	border-radius: 0;
+}
+
+.page-slug-registration .tix-order-summary thead {
+	background: #f9f9f9;
+}
+
+.page-slug-registration .tix-column-quantity select {
+	width: 60px;
+	border-color: #e2e2e2;
+}
+
+.page-slug-registration .tix_tickets_table + p {
+	text-align: center;
+}
+
+.page-slug-registration .tix_tickets_table + p input[type="submit"] {
+	float: none !important;
+}
+
+.page-slug-registration div#content {
+	max-width: 1140px;
+}
+
+.page-slug-registration form h2 {
+	margin-top: 0;
+}
+
+.page-slug-registration .entry-header {
+	display: none;
+}
+
+.wcu-table-hotels-list a {
+	box-shadow: none;
+}
+
+.wcu-table-hotels-list .tripadvisor-rating {
+	background: #8BC34A;
+	color: #fff;
+	display: inline-block;
+	padding: 1px 8px;
+	line-height: 1.5;
+	font-size: 14px;
+	min-width: 35px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.fl-node-581c597498329 > .fl-col-content, .fl-node-581c5978c7d3a > .fl-col-content, .fl-node-581c587093a9f > .fl-col-content {
+		background-size: 100%;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	body:not(.search-results) article:not(.type-page) .entry-footer, 
+																																																														body:not(.search-results) article:not(.type-page) .entry-content {
+		width: auto;
+	}
+	
+	div#site-header-menu {
+		top: 50px;
+	}
+	
+	.admin-bar div#site-header-menu {
+		top: 82px;
+	}
+	
+	.dropdown-toggle {
+		position: absolute !important;
+	}
+	
+	nav#site-navigation {
+		max-width: none;
+	}
+	
+	.main-navigation .primary-menu > li {
+		display: block;
+	}
+	
+	.main-navigation li {
+		border-top: 0;
+		border-bottom: 1px solid #e65201;
+	}
+	
+	.main-navigation .primary-menu > li > a {
+		width: 86%;
+		display: inline-block;
+	}
+	
+	.dropdown-toggle {
+		padding: 0 !important;
+	}
+	
+	.dropdown-toggle:after {
+		border: 0;
+		color: #ff5600;
+	}
+	
+	.main-navigation .primary-menu > li.header-button > a {
+		width: auto;
+	}
+	
+	.content-area:after {
+		bottom: -50px;
+	}
+	
+	.site-footer .main-navigation {
+		display: none;
+	}
+	
+	.site-footer {
+		padding: 20px 5%;
+		text-align: center;
+	}
+	
+	.sidebar, .widecolumn {
+		padding: 0 7.6923%;
+	}
+	
+	.entry-content {
+		margin-right: 7.6923%;
+	}
+	
+	.page-slug-home .entry-content {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.fl-node-581c4dbb509bf > .fl-col-content, .fl-node-581c4dbb50a42 > .fl-col-content, .fl-node-581c4dbb50ab8 > .fl-col-content {
+		padding-bottom: 130px;
+	}
+	
+	.fl-node-581c53b4a7c22 > .fl-col-content {
+		background-size: 100%;
+	}
+	
+	.fl-node-581c4c063ff3f > .fl-row-content-wrap {
+		padding-bottom: 0;
+	}
+	
+	.fl-node-581c4c063ff3f > .fl-row-content-wrap {
+		padding-top: 0;
+	}
+	
+	.main-navigation .primary-menu > li.header-button {
+		float: none;
+		display: inline-block;
+		border: 0;
+		padding-left: 30px;
+	}
+	
+	.main-navigation .primary-menu > li > a:after {
+		display: none;
+	}
+	
+	.main-navigation ul .toggled-on {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.fl-node-581c4dbb509bf > .fl-col-content, .fl-node-581c4dbb50a42 > .fl-col-content, .fl-node-581c4dbb50ab8 > .fl-col-content {
+		padding: 190px 0;
+		margin-bottom: 30px !important;
+	}
+	
+	.fl-node-581c5415803cb > .fl-module-content {
+		margin-top: 180px;
+	}
+	
+	.fl-node-581c66301874d > .fl-row-content-wrap {
+		padding-top: 70px;
+		padding-bottom: 170px;
+	}
+	
+	.fl-node-581c53b4a7c22 > .fl-col-content {
+		background-size: contain;
+	}
+	
+	.fl-node-581c597498329 > .fl-col-content, 
+																																																									.fl-node-581c5978c7d3a > .fl-col-content, 
+																																																									.fl-node-581c587093a9f > .fl-col-content,
+																																																									.fl-node-581c53b4a7c22 > .fl-col-content {
+		margin: 0 20px !important;
+	}
+	
+	.sponsors-wrapper .wc-sponsor {
+		padding: 30px 10px;
+	}
+	
+	.page-slug-speakers .wcorg-speakers .wcorg-speaker {
+		width: 47%;
+	}
+	
+	.page-slug-speakers .wcorg-speakers .wcorg-speaker:nth-of-type(3n) {
+		margin-right: 30px;
+	}
+	
+	.page-slug-speakers .wcorg-speakers .wcorg-speaker:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	
+	#tix-attendees .tix-columns-3 li {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.page-slug-speakers .wcorg-speakers .wcorg-speaker {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.page-slug-speakers .wcorg-speakers .wcorg-speaker:nth-of-type(3n) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.fl-node-581c4dbb509bf > .fl-col-content, .fl-node-581c4dbb50a42 > .fl-col-content, .fl-node-581c4dbb50ab8 > .fl-col-content {
+		padding: 160px 0;
+	}
+	
+	.fl-node-581c5415803cb > .fl-module-content {
+		margin-top: 160px;
+	}
+	
+	.fl-node-581c5415803cb.fl-module-heading .fl-heading {
+		font-size: 24px;
+	}
+	
+	#tix-attendees .tix-columns-3 li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}	
