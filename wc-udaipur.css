@@ -6395,6 +6395,11 @@ body:not(.search-results) article:not(.type-page) .entry-footer span a:hover {
 	border-radius: 4px;
 }
 
+.wcu-schedule-table td[colspan] {
+   font-weight: bold;
+   text-align: center;
+}
+
 @media only screen and (max-width: 1200px) {
 	.fl-node-581c597498329 > .fl-col-content, .fl-node-581c5978c7d3a > .fl-col-content, .fl-node-581c587093a9f > .fl-col-content {
 		background-size: 100%;
