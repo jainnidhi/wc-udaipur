@@ -6395,6 +6395,10 @@ body:not(.search-results) article:not(.type-page) .entry-footer span a:hover {
 	border-radius: 4px;
 }
 
+.wcu-schedule-table {
+	font-size: 14px;
+}
+
 .wcu-schedule-table td[colspan] {
    font-weight: bold;
    text-align: center;
