@@ -1487,6 +1487,10 @@ img.mfp-img {
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px
+	background-image: url ('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-button-bg.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .fl-node-59ef12a766190>.fl-module-content {
     margin-top: 10px
