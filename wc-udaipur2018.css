@@ -1494,6 +1494,16 @@ img.mfp-img {
     background-color: transparent !important;
     border: 0 !important;
 }
+
+.fl-builder-content .fl-node-59ef12a766190 a.fl-button:hover {
+	background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/big-button-bg.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+    border: 0 !important;
+
+}
 .fl-node-59ef12a766190>.fl-module-content {
     margin-top: 10px
 }
