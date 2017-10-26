@@ -974,7 +974,7 @@ img.mfp-img {
     }
 }
 .fl-node-59ef0d4c176f6>.fl-row-content-wrap {
-    background-image: url(https://demo.wpbeaveraddons.com/wp-content/uploads/2017/10/Pasted-image-at-2017_10_24-02_23-PM.png);
+    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/wcudaipur18-header.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -1487,10 +1487,12 @@ img.mfp-img {
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px
-	background-image: url ('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-button-bg.png');
+	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-button-bg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: transparent;
+	border: 0;
 }
 .fl-node-59ef12a766190>.fl-module-content {
     margin-top: 10px
