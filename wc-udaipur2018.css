@@ -1483,16 +1483,16 @@ img.mfp-img {
 .fl-builder-content .fl-node-59ef12a766190 a.fl-button:visited {
     font-size: 18px;
     line-height: 20px;
-    padding: 15px 30px;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px
-	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/big-button-bg.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: transparent;
-	border: 0;
+	padding: 15px 30px !important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/big-button-bg.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+    border: 0 !important;
 }
 .fl-node-59ef12a766190>.fl-module-content {
     margin-top: 10px
