@@ -1005,7 +1005,7 @@ img.mfp-img {
     }
 }
 .fl-node-59ef100132100>.fl-row-content-wrap {
-    background-image: url(https://demo.wpbeaveraddons.com/wp-content/uploads/2017/10/Pasted-image-at-2017_10_24-02_29-PM.png);
+    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/about-udr.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
@@ -1522,12 +1522,26 @@ img.mfp-img {
 }
 .fl-builder-content .fl-node-59f028e566ae8 a.fl-button,
 .fl-builder-content .fl-node-59f028e566ae8 a.fl-button:visited {
-    font-size: 18px;
+	font-size: 18px;
     line-height: 20px;
-    padding: 15px 30px;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px
+    padding: 15px 30px !important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/big-button-bg.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.fl-builder-content .fl-node-59f028e566ae8 a.fl-button:hover {
+    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/10/big-button-bg.png) !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+    border: 0 !important;
 }
 .fl-node-59f028e566ae8>.fl-module-content {
     margin-top: 10px
