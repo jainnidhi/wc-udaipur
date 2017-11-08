@@ -1,0 +1,297 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+body, html body {
+	font-family: proxima-nova, sans-serif;
+}
+
+body:before,
+body:after {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: proxima-nova !important;
+}
+
+p:empty {
+	display: none;
+}
+
+a:hover, a:focus {
+	color: #F72D3F;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+ul li {
+	list-style-position: inside;
+}
+
+.site-branding,
+.entry-header,
+.page-slug-home .entry-footer {
+	display: none;
+}
+
+.blog .entry-header {
+display: block;
+}
+
+.site-inner {
+	max-width: 100%;
+}
+
+body:not(.page-slug-home) .site-inner {
+	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-page-header.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
+body:not(.page-slug-home) .site-content {
+	padding-top: 20%;
+	padding-bottom: 40px;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.page-slug-home .entry-content,
+.no-sidebar .entry-content,
+.site,
+.site-main {
+	margin: 0;
+}
+
+.page-slug-home .site-content {
+	padding: 0;
+}
+
+nav#site-navigation {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0;
+}
+
+.main-navigation .primary-menu > li.header-button > a {
+	background: url('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-button-bg.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff !important;
+	font-size: 13px;
+	padding-left: 18px !important;
+	padding-right: 34px !important;
+}
+
+.main-navigation .primary-menu > li.header-button {
+	float: right;
+}
+
+nav.main-navigation a:hover, nav.main-navigation a:focus {
+	color: #F72D3F;
+	text-decoration: none;
+}
+
+header#masthead {
+	padding: 0;
+}
+
+.site-header-menu {
+	flex: none;
+}
+
+div#site-header-menu {
+	background-color: #fff;
+	padding: 5px 0 !important;
+	width: 100%;
+	z-index: 1000001;
+	top: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	box-shadow: 0 1px 20px #a08686;
+	margin: 0;
+}
+
+.site-footer,
+.below-footer-text {
+	font-size: 14px;
+	text-align: center;
+}
+
+.below-footer-text {
+	padding-top: 20px;
+}
+
+.site-footer a,
+.below-footer-text a {
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.site-footer {
+	padding-top: 20px;
+	padding-bottom: 80px;
+	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wc-footer-b.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.site-info {
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.site-info a:hover, .site-info a:focus {
+	color: #F72D3F;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.menu-toggle {
+	border-radius: 0;
+	width: 100%;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 15px;
+	background: #fff6f8;
+	border: 0 !important;
+}
+
+.fl-module.fl-node-59ef1364debcc,
+.fl-module.fl-node-59ef14230b29e,
+.fl-module.fl-node-59ef14ba7da77,
+.fl-module.fl-node-59ef14c977edf,
+.fl-module.fl-node-59ef14e3d86b4,
+.fl-module.fl-node-59ef14ee62545,
+.fl-module.fl-node-59ef1503997e2,
+.fl-col.fl-node-59ef14d34bf48,
+.fl-module.fl-node-59ef275b38a62,
+.fl-module.fl-node-59ef2761c21ac,
+.fl-node-59ef1e0ceb23e,
+.fl-node-59ef238cd6b11 {
+	display: none;
+}
+
+.fl-node-59ef133ee20dd {
+	margin-bottom: 30px;
+}
+
+.fl-node-59ef13b1141da,
+.fl-node-59ef13b114218,
+.fl-node-59ef13b11426a,
+.fl-node-59f032facca3d {
+	margin-bottom: 20px;
+}
+
+.fl-node-59ef1de777326 {
+	margin-bottom: 40px;
+}
+
+.fl-row-content-wrap {
+	box-shadow: 0 0 32px 0 rgba(0,0,0,0.1);
+}
+
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+	float: left;
+	margin-right: 0;
+	margin-left: 0;
+	width: 100%;
+}
+
+.site-footer .main-navigation {
+	display: none;
+}
+
+/*responsive */
+.fl-node-59f0292f3295f,
+.fl-node-59f0292f32ad4,
+.fl-node-59f0292f32bfa,
+.fl-node-59f0292f32d32,
+.fl-node-59f0292f32ec0,
+.fl-node-59f0292f3300e,
+.fl-node-59f0292f33058,
+.fl-node-59f029c655f1a,
+.fl-node-59f032facca85,
+.fl-node-59f032faccee6,
+.fl-node-59f032faccf7e {
+	display: none;
+}
+
+.fl-node-59f029c655ff0 h3,
+.fl-node-59f029c65607f h3,
+.fl-node-59f029c656114 h3 {
+	font-size: 24px !important;
+}
+
+.fl-node-59ef2325a44cc .fl-col-group-equal-height .fl-module-content,
+.fl-node-59f032facc05e .fl-col-group .fl-module-content {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.fl-node-59ef236fe2490 {
+	margin-bottom: 40px;
+}
+
+.entry-content .contact-form label {
+	font-size: 13px;
+	font-family: proxima-nova;
+	font-weight: 700;
+}
+
+.wcorg-organizers .wcorg-organizer {
+	width: 25%;
+	float: left;
+}
+
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
+	float: none;
+    width: 100%;
+    clear: both;
+	margin-right: 0;
+	margin-left: 0;
+	width: auto;
+}
+
+@media only screen and (max-width: 909px) {
+	.main-navigation .primary-menu > li.header-button {
+		display: none;
+	}
+
+	.main-navigation .primary-menu {
+		border-bottom: 0;
+	}
+
+	.main-navigation li {
+		border-top: 0;
+		position: relative;
+		border-bottom: 1px solid #eee;
+	}
+
+	.main-navigation a {
+		padding: 10px;
+	}
+
+	body:not(.page-slug-home) .site-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.fl-node-59f029c655ed3,
+				.fl-node-59f0292f32908 {
+		margin-bottom: 20px !important;
+	}
+
+	body:not(.page-slug-home) .site-inner {
+		background-position: 100% .5%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body:not(.page-slug-home) .site-inner {
+		background-position: 100% .7%;
+	}
+}
