@@ -1066,11 +1066,12 @@ img.mfp-img {
     }
 }
 .fl-node-59ef2325a44cc>.fl-row-content-wrap {
-    background-image: url(https://2018.udaipur.wordcamp.org/files/2017/11/sponsors-background.jpg);
+    /*background-image: url(https://2018.udaipur.wordcamp.org/files/2017/11/sponsors-background.jpg);*/
     background-repeat: no-repeat;
     background-position: center bottom;
     background-attachment: scroll;
     background-size: cover
+	background-color: #8d3329;
 }
 .fl-node-59f032facc05e>.fl-row-content-wrap {
     background-color: #983a2e;
