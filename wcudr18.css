@@ -16,6 +16,23 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: proxima-nova !important;
 }
 
+.entry-content h2,
+.entry-summary h2 {
+	font-size: 24px;
+}
+
+.entry-content h3,
+.entry-summary h3 {
+	font-size: 20px;
+}
+
+.entry-content h2,
+.entry-summary h2,
+.entry-content h3,
+.entry-summary h3 {
+	margin-bottom: 12px;
+}
+
 p:empty {
 	display: none;
 }
@@ -23,6 +40,10 @@ p:empty {
 a:hover, a:focus {
 	color: #F72D3F;
 	text-decoration: none;
+	box-shadow: none;
+}
+
+.entry-content a, .entry-summary a, .taxonomy-description a, .logged-in-as a, .comment-content a, .pingback .comment-body > a, .textwidget a, .entry-footer a:hover, .site-info a:hover {
 	box-shadow: none;
 }
 
@@ -36,8 +57,19 @@ ul li {
 	display: none;
 }
 
-.blog .entry-header {
-display: block;
+.single-post .entry-header,
+.blog .entry-header,
+.search .entry-header {
+	display: block;
+}
+
+.entry-header .entry-title {
+	margin-top: 0;
+	font-size: 32px;
+}
+
+.hentry div.sharedaddy h3.sd-title, .hentry h3.sd-title {
+	font-size: 13px;
 }
 
 .site-inner {
@@ -45,15 +77,19 @@ display: block;
 }
 
 body:not(.page-slug-home) .site-inner {
-	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-page-header.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: top center;
+	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wcudr-page-header.png'), url('https://2018.udaipur.wordcamp.org/files/2017/11/wcudr-page-footer1.png');
+	background-repeat: no-repeat, repeat-x;
+	background-size: contain, 40px;
+	background-position: top center, bottom center;
+}
+
+body.page-slug-home .post-thumbnail {
+	display: none;
 }
 
 body:not(.page-slug-home) .site-content {
 	padding-top: 20%;
-	padding-bottom: 40px;
+	padding-bottom: 200px;
 	max-width: 1140px;
 	margin: 0 auto;
 }
@@ -69,6 +105,14 @@ body:not(.page-slug-home) .site-content {
 	padding: 0;
 }
 
+.page-slug-home .sidebar {
+	display: none;
+}
+
+.page-slug-home .content-area {
+	width: 100%;
+}
+
 nav#site-navigation {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -82,8 +126,8 @@ nav#site-navigation {
 	background-position: center;
 	color: #fff !important;
 	font-size: 13px;
-	padding-left: 18px !important;
-	padding-right: 34px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
 }
 
 .main-navigation .primary-menu > li.header-button {
@@ -137,6 +181,7 @@ div#site-header-menu {
 	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/10/wc-footer-b.png');
 	background-repeat: no-repeat;
 	background-position: bottom center;
+	display: none;
 }
 
 .site-info {
@@ -160,6 +205,12 @@ div#site-header-menu {
 	border: 0 !important;
 }
 
+.menu-toggle:hover, .menu-toggle:focus {
+	background: #fff6f8;
+	border: 0 !important;
+	color: #000;
+}
+
 .fl-module.fl-node-59ef1364debcc,
 .fl-module.fl-node-59ef14230b29e,
 .fl-module.fl-node-59ef14ba7da77,
@@ -167,9 +218,7 @@ div#site-header-menu {
 .fl-module.fl-node-59ef14e3d86b4,
 .fl-module.fl-node-59ef14ee62545,
 .fl-module.fl-node-59ef1503997e2,
-.fl-col.fl-node-59ef14d34bf48,
 .fl-module.fl-node-59ef275b38a62,
-.fl-module.fl-node-59ef2761c21ac,
 .fl-node-59ef1e0ceb23e,
 .fl-node-59ef238cd6b11 {
 	display: none;
@@ -212,11 +261,11 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
 .fl-node-59f0292f32d32,
 .fl-node-59f0292f32ec0,
 .fl-node-59f0292f3300e,
-.fl-node-59f0292f33058,
 .fl-node-59f029c655f1a,
 .fl-node-59f032facca85,
 .fl-node-59f032faccee6,
-.fl-node-59f032faccf7e {
+.fl-node-59f032faccf7e,
+.fl-module.fl-node-59f0292f33141 {
 	display: none;
 }
 
@@ -242,6 +291,10 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
 	font-weight: 700;
 }
 
+.entry-title a:hover, .entry-title a:focus {
+	color: #F72D3F;
+}
+
 .wcorg-organizers .wcorg-organizer {
 	width: 25%;
 	float: left;
@@ -249,11 +302,206 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
 
 body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
 	float: none;
-    width: 100%;
-    clear: both;
+	width: 100%;
+	clear: both;
 	margin-right: 0;
 	margin-left: 0;
 	width: auto;
+}
+
+.home-sponsors .fl-row-fixed-width {
+	max-width: 1400px;
+}
+
+.home-sponsors > .fl-row-content-wrap,
+.home-sponsors-mobile > .fl-row-content-wrap {
+	background-image: url('https://2018.udaipur.wordcamp.org/files/2017/11/sponsors-top-border.png'), url('https://2018.udaipur.wordcamp.org/files/2017/11/sponsors-bottom-border.png');
+	background-repeat: repeat-x;
+	background-position: top left, bottom left;
+	background-size: 50px;
+	background-color: #8d3329;
+	padding: 130px 20px;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors {
+	margin-bottom: 50px;
+}
+
+.home-sponsors .fl-module-heading .fl-heading {
+	text-align: left;
+	margin-bottom: 20px !important;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors, .home-sponsors .fl-col-group-equal-height.sponsors .fl-col, .home-sponsors .fl-col-group-equal-height.sponsors .fl-col-content {
+	display: block !important;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors,
+.home-sponsors-mobile .fl-col-group-equal-height.mobile-sponsors {
+	display: block !important;
+	width: 100%;
+	clear: both;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors .fl-module-content {
+/*margin-left: 0;*/
+}
+
+h3.home-sponsors-title {
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-weight: 300;
+/*opacity: .7;*/
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors .fl-col,
+.home-sponsors-mobile .fl-col-group-equal-height.mobile-sponsors .fl-col {
+	width: auto;
+	display: inline-block;
+	flex: none;
+	margin-right: 30px;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors .fl-col:last-child {
+	margin-right: 0;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors .fl-col.wponline,
+.home-sponsors-mobile .fl-col-group-equal-height.mobile-sponsors .fl-col.wponline {
+	display: none !important;
+}
+
+.home-sponsors .fl-col-group-equal-height.sponsors .fl-photo {
+	text-align: left;
+}
+
+.home-sponsors-mobile img {
+	margin: 0 auto;
+}
+
+.home-sponsors-mobile .fl-col-group .fl-module-content {
+	margin-bottom: 30px;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer, body:not(.search-results) article:not(.type-page) .entry-content {
+	width: 100%;
+	float: none;
+	margin: 0 !important;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer {
+	margin-top: 10px !important;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span.byline {
+	display: none;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer span {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 13px;
+	font-family: proxima-nova;
+	font-weight: 700;
+}
+
+.widget .widget-title {
+	font-size: 20px;
+	font-family: proxima-nova;
+}
+
+.sidebar .widget {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.widget .search-form label {
+	display: block;
+}
+
+table th,
+table td {
+	padding: 5px;
+}
+
+.wcu-table-hotels-list .tripadvisor-rating {
+	background: #9bc46b;
+	color: #fff;
+	display: inline-block;
+	padding: 1px 8px;
+	line-height: 1.5;
+	font-size: 14px;
+	min-width: 35px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.fl-node-59ef133ee20dd.fl-module-heading .fl-heading {
+	text-align: left;
+}
+
+/* Comment Form */
+.comment-metadata {
+	font-family: proxima-nova;
+	font-size: 12px;
+}
+
+.comment-reply-title {
+	font-size: 20px;
+}
+
+.comment-form {
+	padding-top: 0;
+}
+
+.comment-notes, .comment-awaiting-moderation, .logged-in-as, .form-allowed-tags {
+	font-size: 13px;
+}
+
+.comment-form label {
+	font-family: proxima-nova;
+	font-size: 14px;
+}
+
+.required {
+	color: #F72D3F;
+}
+
+.post-navigation {
+	font-family: proxima-nova;
+}
+
+.post-navigation .meta-nav {
+	font-size: 11px;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input[type="submit"] {
+	margin-top: 10px;
+}
+
+.widget {
+	font-size: 13px;
+}
+
+@media screen and (min-width: 56.875em) {
+	body:not(.page-slug-home) #primary {
+		border-right: 1px solid #eee;
+		padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.fl-col.fl-node-59ef25c441295 {
+	/*padding-top: 60px;
+						padding-bottom: 80px; */
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.home-sponsors .fl-col-group-equal-height.sponsors {
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width: 909px) {
@@ -281,17 +529,40 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
 	}
 
 	.fl-node-59f029c655ed3,
-				.fl-node-59f0292f32908 {
+																																							.fl-node-59f0292f32908 {
 		margin-bottom: 20px !important;
 	}
 
 	body:not(.page-slug-home) .site-inner {
-		background-position: 100% .5%;
+		background-position: 100% 30px, bottom center;
+	}
+
+	.comments-area,
+																								.post-navigation {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.sidebar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.fl-node-59f029c655fa9>.fl-col-content,
+																.fl-node-59f029c656037>.fl-col-content,
+																.fl-node-59f029c6560c7>.fl-col-content {
+		background-size: contain;
+	}
+
+	.home-sponsors-mobile .fl-col-group-equal-height.mobile-sponsors .fl-col {
+		width: auto;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	body:not(.page-slug-home) .site-inner {
-		background-position: 100% .7%;
+		background-position: 100% 30px, bottom center;
 	}
 }
